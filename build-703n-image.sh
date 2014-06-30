@@ -4,8 +4,8 @@
 # Also expects ./cross-compile-bfgminer.sh
 
 # set these
-bfgminer_version="4.2.99"
-image_version="pr2"
+bfgminer_version="4.3.0"
+image_version="pr3"
 
 # not these
 full_version="v${bfgminer_version}-${image_version}"
