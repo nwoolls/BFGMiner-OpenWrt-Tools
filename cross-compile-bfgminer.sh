@@ -19,12 +19,12 @@ openwrt_sdk="${HOME}/openwrt"
 gcc_version="4.8"
 uclibc_version="0.9.33.2"
 
-# Should not need editing if the above are set properly
+# Below should not need editing
+openwrt_staging="${openwrt_sdk}/staging_dir"
 openwrt_toolchain="${openwrt_staging}/toolchain-${image_platform}_gcc-${gcc_version}-linaro_uClibc-${uclibc_version}"
 openwrt_target="${openwrt_staging}/target-${image_platform}_uClibc-${uclibc_version}"
 
-# Should not need editing - ever really
-openwrt_staging="${openwrt_sdk}/staging_dir"
+# Below depends on $openwrt_toolchain and $openwrt_target being set above
 openwrt_toolsbin="${openwrt_toolchain}/bin"
 openwrt_toolsusrbin="${openwrt_toolchain}/usr/bin"
 openwrt_toolslib="${openwrt_toolchain}/lib"
