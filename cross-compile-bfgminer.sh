@@ -41,6 +41,8 @@ openwrt_targetusrinclude="${openwrt_target}/usr/include"
 
 bfgminer_output="${bfgminer_source}/output/openwrt"
 
+mkdir -p $bfgminer_output
+
 pathadd() {
     if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
         export PATH="${PATH:+"$PATH:"}$1"
