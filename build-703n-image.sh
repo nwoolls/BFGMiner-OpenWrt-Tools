@@ -3,6 +3,9 @@
 # OpenWrt Image Builder image should be located in ~/openwrt-imagebuilder
 # Also expects ./cross-compile-bfgminer.sh
 
+# Warn / error on unbound variables
+set -u
+
 # set these
 bfgminer_version="4.3.0"
 image_version="pr3"
