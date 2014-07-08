@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Warn / error on unbound variables
+set -u
+
 # Specifies the platform for the OpenWrt SDK
 image_platform="mips_34kc"
 
