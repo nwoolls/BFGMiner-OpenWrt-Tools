@@ -81,7 +81,7 @@ cd $bfgminer_source
 ./configure --prefix=${bfgminer_output} --host=mips-openwrt-linux --enable-scrypt --enable-cpumining
 make clean
 make
-make install
+sudo make install
 cd output/
 tar zcvf bfgminer_openwrt.tar.gz openwrt/
 cd openwrt/
