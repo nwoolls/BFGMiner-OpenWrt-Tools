@@ -8,7 +8,7 @@ set -u
 
 # set these
 bfgminer_version="4.4.0"
-image_version="pr4"
+image_version="r1"
 
 # not these
 full_version="v${bfgminer_version}-${image_version}"
