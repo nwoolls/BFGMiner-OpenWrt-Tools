@@ -7,7 +7,7 @@
 set -u
 
 # set these
-bfgminer_version="4.4.0"
+bfgminer_version="4.5"
 image_version="r1"
 
 # not these
